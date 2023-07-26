@@ -1,8 +1,39 @@
-# React + Vite
+## Technologies utilisées
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ReactJS : une librairie JavaScript très puissante pour faciliter la création d’interface utilisateur, et celle que je maîtrise le mieux
+- ThreeJS : bibliothèque WebGL compatible avec React, et la plus populaire
+- à voir
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Les objectifs du site
+
+### Quelle sera la principale fonctionnalité du site ?
+
+Le site a pour but de showcase des motos sportives en modèle 3d. C’est à peu près tout pour le moment, pourquoi pas ajouter des fonctionnalités au fur à mesure du processus de développement du site.
+
+### Quelle expérience offrir aux utilisateurs ?
+
+Une expérience immersive, au scroll ou au drag de la souris. Plus le modèle 3d tourne, plus les infos apparaissent.
+
+---
+
+## Recherche et collecte de modèles 3d
+
+- suzuki gsx 750 Bike 3D model
+- Sports Bike - Download Free 3D model by Futurealiti (@futurealiti) [a80259b]
+- Kawasaki ninja H2r - 3D model by Abdullah*Olakh* (@Abdullah*Olakh*) [a46a010]
+- Kawaski Ninja ZX-6R 2019 - 3D model by ilhamalhakim45 (@ilhamalhakim45) [6d4c108]
+
+---
+
+## Navigation et interactions
+
+- Pivoter, zoomer, déplacer les motos
+- Afficher des informations en fonction du scroll / position de la moto
+
+---
+
+## Optimisation des performances
+
+- Charger les modèles de manière asynchrone
