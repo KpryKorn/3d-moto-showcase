@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="container">
       <div id="logo">
-        ExoRide<span>.</span>
+        <img src="/vite.png" alt="kawasaki river mark logo" />
       </div>
       <ul className="nav-links">
         <li>
@@ -17,7 +17,7 @@ export default function Navbar() {
             <span>02.</span>Showcase
           </a>
         </li>
-        <a href="#" className="btn">
+        <a href="#" className="btn btn-primary">
           Reach Out
         </a>
       </ul>
