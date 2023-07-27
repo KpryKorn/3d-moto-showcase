@@ -44,6 +44,25 @@ a {
 
 /*  UTILITY CLASSES */
 
+.grid-bg {
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, #2a3224 1px, transparent 1px),
+    linear-gradient(to bottom, #2a3224 1px, transparent 1px);
+  background-position: top center;
+  image-rendering: pixelated;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    10%,
+    white,
+    90%,
+    transparent
+  );
+  position: absolute;
+  inset: 0;
+  z-index: -100;
+}
+
 .container {
   margin-inline: auto;
   width: min(90%, 70.5rem);
