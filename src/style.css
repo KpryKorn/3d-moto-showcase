@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-primary: "DM Sans", sans-serif;
+  --font-heading: "Space Grotesk", monospace;
+  --clr-primary: #252525;
+  --clr-neutral: #f1f1f1;
+  --clr-accent: #85f03e;
+}
+
+body {
+  font-family: var(--font-primary);
+  height: 100dvh;
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral);
+}
+
+/* RESET CSS */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+/*  UTILITY CLASSES */
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: 1px solid var(--clr-accent);
+  display: inline-block;
+  transition: all 300ms ease;
+}
+.btn:hover,
+.btn:focus-within {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary);
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+    gap: 2em;
+  }
+  .split > * {
+    flex-basis: 100%;
+  }
+}
+
+/* NAVBAR */
+
+nav.container {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.nav-links a span {
+  margin-right: 10px;
+  color: var(--clr-accent);
+  font-size: 1rem;
+  font-family: var(--font-primary);
+}
+#logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#logo span {
+  color: var(--clr-accent);
+  font-size: 2rem;
+}
