@@ -38,7 +38,7 @@ export default function NumberSection() {
             <p>Pro Racers</p>
           </div>
           <div className="stats-item">
-            <h4 className="stats-header">7</h4>
+            <h4 className="stats-header">71</h4>
             <p>Creators</p>
           </div>
         </div>
