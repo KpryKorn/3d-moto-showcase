@@ -211,7 +211,7 @@ html.has-scroll-dragging {
     gap: 2em;
   }
   .split > * {
-    flex-basis: 100%;
+    flex-basis: fit-content;
   }
 }
 
@@ -351,5 +351,20 @@ section {
 }
 .stats-header ~ p {
   text-transform: uppercase;
+  color: var(--clr-neutral-200);
+}
+
+/* SHOWCASE SECTION */
+
+.showcase-text {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+}
+.showcase-subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2rem;
+  text-align: center;
   color: var(--clr-neutral-200);
 }
