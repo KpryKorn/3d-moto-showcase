@@ -23,7 +23,7 @@ export default function StorySection() {
   ];
 
   return (
-    <section id="our-story" className="container">
+    <section id="our-story" className="container" data-scroll-section>
       <h3 className="section__title">
         <span>01. </span>Kawasaki <br />
         Motorcycles Unleashed

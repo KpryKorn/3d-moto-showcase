@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <main className="container">
+    <section id="hero-section" className="container" data-scroll-section>
       <div>
         <p className="hero__subtitle">
           Experience Speed in a New Dimension: ExoRide Motorcycles Unleashed.
@@ -24,6 +24,6 @@ export default function Hero() {
           Join us
         </a>
       </div>
-    </main>
+    </section>
   );
 }
