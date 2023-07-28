@@ -4,6 +4,7 @@ import GridBg from "./components/ui/GridBg";
 import StorySection from "./components/StorySection";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useRef } from "react";
+import NumberSection from "./components/NumberSection";
 
 function App() {
   const ref = useRef(null);
@@ -20,6 +21,7 @@ function App() {
           <Navbar />
           <Hero />
           <StorySection />
+          <NumberSection />
         </main>
       </LocomotiveScrollProvider>
     </>
