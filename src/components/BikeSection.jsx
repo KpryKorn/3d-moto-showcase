@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function StorySection() {
+export default function BikeSection() {
   const motos = [
     {
       name: "Ninja 400",

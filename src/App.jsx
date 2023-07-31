@@ -1,7 +1,7 @@
 import Hero from "./components/ui/Hero";
 import Navbar from "./components/ui/Navbar";
 import GridBg from "./components/ui/GridBg";
-import StorySection from "./components/StorySection";
+import BikeSection from "./components/BikeSection";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useRef } from "react";
 import NumberSection from "./components/NumberSection";
@@ -21,7 +21,7 @@ function App() {
           <GridBg />
           <Navbar />
           <Hero />
-          <StorySection />
+          <BikeSection />
           <NumberSection />
           <ShowcaseSection />
         </main>
