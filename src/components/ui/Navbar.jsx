@@ -17,6 +17,11 @@ export default function Navbar() {
             <span>02.</span>Showcase
           </a>
         </li>
+        <li>
+          <a href="#">
+            <span>03.</span>Our shops
+          </a>
+        </li>
         <a href="#" className="btn btn-primary">
           Reach Out
         </a>
