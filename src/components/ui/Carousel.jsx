@@ -40,6 +40,9 @@ const Carousel = () => {
         gap: "1rem",
         scrollSnapType: "x mandatory",
       }}
+      data-scroll
+      data-scroll-direction="vertical"
+      data-scroll-speed="4"
     >
       {carouselData.map((item, i) => (
         <li
