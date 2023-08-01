@@ -12,7 +12,12 @@ export default function ShowcaseSection() {
             position: "relative",
           }}
         >
-          <p className="showcase-text">
+          <p
+            className="showcase-text"
+            data-scroll
+            data-scroll-direction="vertical"
+            data-scroll-speed="5"
+          >
             Embark on the Ride of Tomorrow's Dreams, Where Technology and
             Passion Collide. With Futuristic Motorcycles as Your Wings, Soar to
             New Horizons Unexplored. Feel the Electric Pulse of Innovation, as
