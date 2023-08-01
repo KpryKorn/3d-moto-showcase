@@ -360,6 +360,20 @@ section {
   font-family: var(--font-heading);
   font-size: 3rem;
 }
+.showcase-text::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0%;
+  bottom: 0%;
+  width: 130%;
+  left: -25%;
+  background: url(noise.webp) repeat,
+    linear-gradient(83.21deg, var(--clr-primary) 0%, var(--clr-accent) 100%);
+  background-blend-mode: overlay;
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0), transparent 60%);
+  mask-image: radial-gradient(rgba(0, 0, 0, 0.4), transparent 70%);
+}
 .showcase-subtitle {
   display: flex;
   flex-direction: column;

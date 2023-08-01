@@ -7,7 +7,11 @@ export default function ShowcaseSection() {
         <span>02. </span>Showcase
       </h3>
       <div className="split">
-        <div>
+        <div
+          style={{
+            position: "relative",
+          }}
+        >
           <p className="showcase-text">
             Embark on the Ride of Tomorrow's Dreams, Where Technology and
             Passion Collide. With Futuristic Motorcycles as Your Wings, Soar to
