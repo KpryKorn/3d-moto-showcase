@@ -24,8 +24,14 @@ export default function BikeSection() {
 
   return (
     <section id="our-story" className="container" data-scroll-section>
-      <h3 className="section__title">
-        <span>01. </span>Kawasaki <br />
+      <h3
+        className="section__title"
+        data-scroll
+        data-scroll-direction="vertical"
+        data-scroll-speed="2"
+      >
+        <span>01. </span>
+        Kawasaki <br />
         Motorcycles Unleashed
       </h3>
       <div className="group__gallery">
