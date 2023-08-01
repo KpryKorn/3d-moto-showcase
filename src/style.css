@@ -231,6 +231,23 @@ nav.container {
   justify-content: space-between;
   gap: 3rem;
 }
+.nav-links li {
+  display: inline-block;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.nav-links li[data-animation-1] {
+  animation: navbarFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 300ms;
+}
+.nav-links li[data-animation-2] {
+  animation: navbarFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 500ms;
+}
+.nav-links li[data-animation-3] {
+  animation: navbarFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 700ms;
+}
 .nav-links a span {
   margin-right: 10px;
   color: var(--clr-accent);
@@ -240,6 +257,15 @@ nav.container {
 #logo img {
   height: 50px;
   width: 50px;
+}
+@keyframes navbarFadeIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
 /* HERO SECTION */

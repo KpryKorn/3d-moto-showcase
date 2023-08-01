@@ -7,17 +7,17 @@ export default function Navbar() {
         <img src="/vite.png" alt="kawasaki river mark logo" />
       </div>
       <ul className="nav-links">
-        <li>
+        <li data-animation-1>
           <a href="#">
             <span>01.</span>Our bikes
           </a>
         </li>
-        <li>
+        <li data-animation-2>
           <a href="#">
             <span>02.</span>Showcase
           </a>
         </li>
-        <li>
+        <li data-animation-3>
           <a href="#">
             <span>03.</span>Our shops
           </a>
