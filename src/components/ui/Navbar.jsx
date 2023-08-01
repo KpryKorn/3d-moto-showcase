@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav className="container" data-scroll-section>
-      <div id="logo">
+      <div id="logo" data-animated-logo>
         <img src="/vite.png" alt="kawasaki river mark logo" />
       </div>
       <ul className="nav-links">
@@ -22,7 +22,7 @@ export default function Navbar() {
             <span>03.</span>Our shops
           </a>
         </li>
-        <a href="#" className="btn btn-primary">
+        <a href="#" className="btn btn-primary" data-animated-btn>
           Reach Out
         </a>
       </ul>

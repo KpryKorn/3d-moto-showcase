@@ -236,17 +236,31 @@ nav.container {
   transform: translateY(100%);
   opacity: 0;
 }
-.nav-links li[data-animation-1] {
+[data-animation-1] {
   animation: navbarFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
   animation-delay: 300ms;
 }
-.nav-links li[data-animation-2] {
+[data-animation-2] {
   animation: navbarFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
   animation-delay: 500ms;
 }
-.nav-links li[data-animation-3] {
+[data-animation-3] {
   animation: navbarFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
   animation-delay: 700ms;
+}
+[data-animated-btn] {
+  animation: btnFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 1900ms;
+  transform: translateX(-100%);
+  opacity: 0;
+  overflow-x: hidden;
+}
+[data-animated-logo] {
+  animation: logoFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 1900ms;
+  transform: translateY(-100%);
+  opacity: 0;
+  overflow-y: hidden;
 }
 .nav-links a span {
   margin-right: 10px;
@@ -283,6 +297,13 @@ nav.container {
 #hero-section span {
   color: var(--clr-accent);
 }
+.hero__subtitle {
+  animation: titleFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 1000ms;
+  transform: translateX(-100%);
+  overflow-x: hidden;
+  opacity: 0;
+}
 .hero__title {
   font-family: var(--font-heading);
   color: var(--clr-accent);
@@ -290,12 +311,51 @@ nav.container {
   font-size: 7rem;
   line-height: 1;
   padding-block: 3rem;
+  animation: titleFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 1300ms;
+  transform: translateX(-100%);
+  overflow-x: hidden;
+  opacity: 0;
 }
 .hero__labels {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+.hero__labels p {
+  animation: titleFadeIn 0.5s cubic-bezier(0.53, 0, 0.22, 1) forwards;
+  animation-delay: 1600ms;
+  transform: translateX(-100%);
+  overflow-x: hidden;
+  opacity: 0;
+}
+@keyframes titleFadeIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes btnFadeIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes logoFadeIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
 /* STORY SECTION */

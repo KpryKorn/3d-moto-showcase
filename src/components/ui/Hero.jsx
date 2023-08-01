@@ -20,7 +20,7 @@ export default function Hero() {
           Self-owned and independent • <span>10+</span> years of innovation •{" "}
           <span>130+</span> partners
         </p>
-        <a href="#" className="btn btn-secondary">
+        <a href="#" className="btn btn-secondary" data-animated-btn>
           Join us
         </a>
       </div>
