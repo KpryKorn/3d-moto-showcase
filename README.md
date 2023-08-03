@@ -2,6 +2,7 @@
 
 - ReactJS : une librairie JavaScript très puissante pour faciliter la création d’interface utilisateur, et celle que je maîtrise le mieux
 - ThreeJS : bibliothèque WebGL compatible avec React, et la plus populaire
+- Locomotive JS : une librairie de scroll en JS
 - [Remix Icons]([url](https://remixicon.com/)) : An open source icon library built by Remix Design
 - à voir
 
