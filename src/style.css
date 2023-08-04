@@ -468,3 +468,16 @@ section {
   text-align: center;
   color: var(--clr-neutral-200);
 }
+
+/* CREDIT SECTION */
+
+footer {
+  padding-bottom: 4rem;
+}
+
+footer p {
+  font-family: var(--font-heading);
+  color: var(--clr-neutral-200);
+  font-size: 1.2rem;
+  text-align: center;
+}

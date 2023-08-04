@@ -7,6 +7,7 @@ import { useRef } from "react";
 import NumberSection from "./components/NumberSection";
 import ShowcaseSection from "./components/ShowcaseSection";
 import ShopSection from "./components/ShopSection";
+import CreditSection from "./components/CreditSection";
 
 function App() {
   const ref = useRef(null);
@@ -26,6 +27,7 @@ function App() {
           <NumberSection />
           <ShowcaseSection />
           <ShopSection />
+          <CreditSection />
         </main>
       </LocomotiveScrollProvider>
     </>
